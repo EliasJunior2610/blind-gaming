@@ -1,5 +1,82 @@
 @import "tailwindcss";
 
+/* Rolagem suave */
 html {
     scroll-behavior: smooth;
+}
+
+/* Estilos para o gradiente roxo (seção Blind Gaming) */
+.purple-gradient {
+  background: linear-gradient(to bottom, #2A003D 0%, #5E008A 49%); /* Cores mais escuras */
+}
+
+/* Estilos para a sombra global */
+.shadow-lg {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos para a seção da equipe */
+.equipe-container {
+  background-color: rgba(78, 78, 78, 0.25); /* #4E4E4E com 25% de opacidade */
+  padding: 40px 0; 
+}
+
+/* Estilos para os cards individuais da equipe - APLICADO À CLASSE 'membro-card' */
+.membro-card {
+  background-color: #262626; /* Cor de fundo do card */
+  color: white; /* Cor do texto dentro do card */
+  border-radius: 1rem; /* rounded-2xl (16px) */
+  padding: 1rem; /* p-4 (16px) */
+
+  /* Removendo a borda geral */
+  border: none;
+
+  /* Adicionando borda apenas na parte inferior e direita */
+  border-bottom: 4px solid #6A019C;
+  border-right: 4px solid #6A019C;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  /* Diminuindo o tamanho dos quadrados */
+  width: 160px; 
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+/* Ajustando as media queries para o novo tamanho dos cards */
+@media (min-width: 768px) and (max-width: 1023px) { /* Tablets (md) */
+  .membro-card {
+    width: unset; /* Remove o width fixo para que flex-basis funcione */
+    flex-basis: calc(50% - 1.5rem); /* Para 2 colunas com gap-6 (1.5rem ou 24px) */
+  }
+}
+
+@media (max-width: 767px) { /* Celulares (sm) */
+  .membro-card {
+    width: unset; /* Remove o width fixo */
+    flex-basis: calc(100% - 1.5rem); /* Para 1 coluna */
+  }
+}
+
+/* Estilos para a imagem dentro do card */
+.membro-card img {
+  width: 6rem; 
+  height: 6rem; 
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+  border-radius: 0.75rem; /* rounded-xl (12px) - ajustado para combinar */
+  margin-bottom: 0.5rem; 
+}
+
+/* Estilos para o nome dentro do card */
+.membro-card h3 {
+  font-size: 1rem; 
+}
+
+/* Estilos para o cargo dentro do card */
+.membro-card p {
+  font-size: 0.75rem; 
+  color: #a0a0a0; 
 }
