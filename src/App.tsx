@@ -87,7 +87,7 @@ function App() {
                 <h1 className="text-white text-base md:text-2xl font-bold text-center md:text-right leading-snug">
                   DESENVOLVENDO JOGOS PARA<br />PESSOAS COM CEGUEIRA
                 </h1>
-                <a href="#blind-gaming" className="mt-4 bg-black bg-opacity-70 text-white font-semibold py-2 px-6 text-sm rounded-lg transition duration-300 ease-in-out hover:bg-opacity-90" onClick={closeMobileMenu}>
+                <a href="#blind-gaming" className="mt-4 bg-black bg-opacity-70 text-white font-semibold py-2 px-6 text-sm rounded-lg transition duration-300 ease-in-out hover:bg-opacity-90 hover:cursor-pointer md:mr-35" onClick={closeMobileMenu}>
                   Conheça
                 </a>
               </div>
@@ -165,7 +165,7 @@ function App() {
                 </div>
                 <button
                   type='submit'
-                  className='bg-[#6A019C] hover:bg-[#7C00B6] text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out text-base md:text-lg'
+                  className='bg-[#6A019C] hover:bg-[#7C00B6] text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out text-base md:text-lg hover:cursor-pointer'
                 >
                   Enviar e-mail
                 </button>
@@ -173,8 +173,7 @@ function App() {
 
               {/* Logo e Nome da Empresa */}
               <div className='flex flex-col items-center justify-center w-full md:w-1/2 mt-8 md:mt-0'>
-                <img src={blindGamingLogo} alt="Logo Blind Gaming" className="w-[120px] md:w-[180px] h-auto mb-4"/>
-                <p className="text-lg md:text-xl font-bold">BLIND GAMING</p>
+                <img src={blindGamingLogo} alt="Logo Blind Gaming" className="w-[120px] md:w-[250px] h-auto mb-4"/>
               </div>
             </div>
           </div>
