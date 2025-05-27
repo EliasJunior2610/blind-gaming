@@ -79,7 +79,7 @@ function App() {
       </header>
 
       <div className="pt-[80px] md:pt-[105px]">
-        <div className="relative w-full h-[250px] md:h-[320px]">
+        <div className="relative w-full h-[100vh] md:h-[100vh]">
           <img className="w-full h-full object-cover" src={headerPic} alt="Header" />
           <div className="absolute top-0 left-0 w-full h-full flex items-center px-4 md:px-8">
             <div className="flex flex-col md:flex-row items-center md:justify-between w-full max-w-5xl mx-auto">
@@ -91,7 +91,7 @@ function App() {
                 </h1>
                 <a
                   href="#blind-gaming"
-                  className="mt-4 bg-black bg-opacity-70 text-white font-semibold py-2 px-6 text-sm rounded-lg transition duration-300 ease-in-out hover:bg-opacity-90 hover:cursor-pointer"
+                  className="mt-4 bg-black bg-opacity-70 text-white font-semibold py-2 px-6 text-sm rounded-lg transition duration-300 ease-in-out hover:bg-opacity-90 hover:cursor-pointer md:mr-[90px]"
                   onClick={closeMobileMenu}
                 >
                   Conheça
@@ -144,7 +144,7 @@ function App() {
             </h2>
             <div className="equipe-cards flex flex-wrap justify-center gap-4 md:gap-6 px-4">
               <MembroEquipe className="membro-card" nome="Ricardo Junior" cargo="Technical Writer" imagem="./assets/Ricardo.jpg" />
-              <MembroEquipe className="membro-card" nome="Rhuan Victor" cargo={'Product Owner\nAgilista\nSoftware Engineer'} imagem="./assets/Rhuan.png" />
+              <MembroEquipe className="membro-card" nome="Rhuan Victor" cargo={'Product Owner\nAgilista\nSoftware Engineer'} imagem="./assets/Rhuan.jpg" />
               <MembroEquipe className="membro-card" nome="Elias Sales" cargo="Software Engineer" imagem="./assets/Elias.jpg" />
               <MembroEquipe className="membro-card" nome="Luan Santos" cargo="Quality Assurance" imagem="./assets/Luan.jpg" />
               <MembroEquipe className="membro-card" nome="Lucas Oliveira" cargo={'Designer\nTechnical Writer'} imagem="./assets/Lucas.jpg" />
