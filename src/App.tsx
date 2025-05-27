@@ -109,7 +109,7 @@ function App() {
             >
               Blind Gaming
             </h2>
-            <p className="text-center px-4 md:px-80 text-justify text-base md:text-xl font-semibold">
+            <p className="text-center px-4 md:px-80 text-justify text-sm md:text-xl font-semibold">
               A Blind Gaming é uma empresa brasileira de tecnologia e desenvolvimento de jogos digitais, fundada com o
               propósito de tornar o mundo dos games mais acessível e inclusivo. Seu foco principal está em criar
               experiências imersivas que possam ser aproveitadas por pessoas com cegueira, sem abrir mão da qualidade
@@ -129,13 +129,8 @@ function App() {
               >
                 Nosso Produto
               </h2>
-              <p className="text-base md:text-lg text-justify font-semibold mb-7">
-                Raízes do Medo é um jogo que busca se destacar por sua acessibilidade,
-                sendo projetado especialmente para incluir pessoas com deficiência visual.
-                Utilizando sons e comandos como base de interatividade, oferece uma
-                experiência inclusiva. Além disso, foca no terror psicológico, com design
-                de áudio avançado que cria uma ambientação intensa, proporcionando uma
-                jogabilidade imersiva e única para todos os públicos.
+              <p className="text-sm md:text-lg text-justify font-semibold mb-7">
+                Raízes do Medo é um jogo que busca se destacar por sua acessibilidade, sendo projetado especialmente para incluir pessoas com deficiência visual. Utilizando sons e comandos como base de interatividade, oferece uma experiência inclusiva. Além disso, foca no terror psicológico, com design de áudio avançado que cria uma ambientação intensa, proporcionando uma jogabilidade imersiva e única para todos os públicos. O desenvolvimento utiliza Pygame, aplicando os padrões de projeto State e Observer, garantindo uma estrutura robusta, escalável e eficiente.
               </p>
             </div>
           </section>

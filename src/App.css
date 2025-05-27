@@ -80,3 +80,7 @@ html {
   font-size: 0.75rem; 
   color: #a0a0a0; 
 }
+
+a:hover {
+  color: #6A019C;
+}
