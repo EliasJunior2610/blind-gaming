@@ -45,7 +45,7 @@ function App() {
               <img className="h-[50px] md:h-[70px]" src={logo} alt="Logo menor" />
             </a>
             <nav className="hidden md:flex gap-4 md:gap-6 font-semibold">
-              <a href="#blind-gaming">BLIND GAMING</a>
+              <a href="#blind-gaming">QUEM SOMOS</a>
               <a href="#nosso-produto">NOSSO PRODUTO</a>
               <a href="#equipe">EQUIPE</a>
               <a href="#contato">CONTATO</a>
@@ -63,7 +63,7 @@ function App() {
         {isMobileMenuOpen && (
           <div className="md:hidden fixed top-[80px] left-0 w-full bg-black bg-opacity-95 flex flex-col items-center py-4 z-40">
             <a href="#blind-gaming" className="py-2 text-lg font-semibold" onClick={closeMobileMenu}>
-              BLIND GAMING
+              QUEM SOMOS
             </a>
             <a href="#nosso-produto" className="py-2 text-lg font-semibold" onClick={closeMobileMenu}>
               NOSSO PRODUTO
@@ -87,7 +87,7 @@ function App() {
 
               <div className="flex flex-col items-center md:items-end mt-4 md:mt-0">
                 <h1 className="text-white text-base md:text-2xl font-bold text-center md:text-right leading-snug">
-                  DESENVOLVENDO JOGOS PARA<br />PESSOAS COM CEGUEIRA
+                  DESENVOLVENDO JOGOS PARA<br />PESSOAS COM DEFICIÊNCIA VISUAL
                 </h1>
                 <a
                   href="#blind-gaming"
@@ -107,7 +107,7 @@ function App() {
               id="blind-gaming"
               className="text-xl md:text-2xl font-semibold text-center m-4 scroll-mt-[90px] md:scroll-mt-[110px]"
             >
-              Blind Gaming
+              Quem Somos
             </h2>
             <p className="text-center px-4 md:px-80 text-justify text-sm md:text-xl font-semibold">
               A Blind Gaming é uma empresa brasileira de tecnologia e desenvolvimento de jogos digitais, fundada com o
@@ -130,7 +130,7 @@ function App() {
                 Nosso Produto
               </h2>
               <p className="text-sm md:text-lg text-justify font-semibold mb-7">
-                Raízes do Medo é um jogo que busca se destacar por sua acessibilidade, sendo projetado especialmente para incluir pessoas com deficiência visual. Utilizando sons e comandos como base de interatividade, oferece uma experiência inclusiva. Além disso, foca no terror psicológico, com design de áudio avançado que cria uma ambientação intensa, proporcionando uma jogabilidade imersiva e única para todos os públicos. O desenvolvimento utiliza Pygame, aplicando os padrões de projeto State e Observer, garantindo uma estrutura robusta, escalável e eficiente.
+                Raízes do Medo é um jogo que busca se destacar por sua acessibilidade, sendo projetado especialmente para incluir pessoas com deficiência visual. Utilizando sons e comandos como base de interatividade, oferece uma experiência inclusiva. Além disso, foca no terror psicológico, com design de áudio avançado que cria uma ambientação intensa, proporcionando uma jogabilidade imersiva e única para todos os públicos.
               </p>
             </div>
           </section>
