@@ -107,7 +107,7 @@ function App() {
             <h2 id="nosso-produto" className="text-xl md:text-2xl font-semibold mb-4">
               Raízes do Medo
             </h2>
-            <p className="text-sm md:text-lg text-justify font-semibold">
+            <p className="text-sm md:text-lg text-justify font-semibold md:mb-[40px]">
               Criado com foco na acessibilidade, Raízes do Medo é um jogo de terror que garante uma imersão completa para jogadores com limitações visuais, sem comprometer o terror da narrativa.
             </p>
           </div>
