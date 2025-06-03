@@ -23,7 +23,7 @@ function App() {
               <img className="h-[50px] md:h-[70px]" src={logo} alt="Logo menor" />
             </a>
             <nav className="hidden md:flex gap-4 md:gap-6 font-semibold">
-              <a href="#blind-gaming">BLIND GAMING</a>
+              <a href="#blind-gaming">QUEM SOMOS</a>
               <a href="#nosso-produto">RAÍZES DO MEDO</a>
               <a href="#equipe">EQUIPE</a>
               <a href="#contato">CONTATO</a>
@@ -40,7 +40,7 @@ function App() {
         {isMobileMenuOpen && (
           <div className="md:hidden fixed top-[80px] left-0 w-full bg-white text-black bg-opacity-95 flex flex-col items-center py-4 z-40">
             <a href="#blind-gaming" onClick={closeMobileMenu} className="py-2 text-lg font-semibold">
-              BLIND GAMING
+              QUEM SOMOS
             </a>
             <a href="#nosso-produto" onClick={closeMobileMenu} className="py-2 text-lg font-semibold">
               RAÍZES DO MEDO
@@ -77,7 +77,7 @@ function App() {
         {/* Sobre */}
         <section className="bg-white text-black pt-6 pb-11 shadow-lg">
           <h2 id="blind-gaming" className="text-xl md:text-2xl font-semibold text-center m-4">
-            Blind Gaming
+            Quem Somos
           </h2>
           <div className='flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto px-4 md:px-8'>
             <div className="w-full md:w-1/2 text-justify">
@@ -119,7 +119,7 @@ function App() {
             <h2 id="equipe" className="text-xl md:text-2xl font-semibold mb-8 md:mb-12">
               Nossa Equipe
             </h2>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-6 px-4 max-w-6xl mx-auto">
+            <div className="flex flex-col md:flex-row justify-center items-start gap-6 px-4 max-w-6xl mx-auto"> {/* Changed items-center to items-start */}
               <MembroEquipe nome="Ricardo Junior" cargo="Technical Writer" imagem="/assets/Ricardo.jpg" />
               <MembroEquipe nome="Rhuan Victor" cargo={'Product Owner\nAgilista\nSoftware Engineer'} imagem="/assets/Rhuan.jpg" />
               <MembroEquipe nome="Luan Santos" cargo="Quality Assurance" imagem="/assets/Luan.jpg" />
