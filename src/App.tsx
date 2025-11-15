@@ -124,7 +124,7 @@ function App() {
               <MembroEquipe nome="Rhuan Victor" cargo={'Product Owner\nAgilista\nSoftware Engineer'} imagem="/assets/Rhuan.jpg" />
               <MembroEquipe nome="Luan Santos" cargo="Quality Assurance" imagem="/assets/Luan.jpg" />
               <MembroEquipe nome="Lucas Oliveira" cargo={'Designer\nTechnical Writer'} imagem="/assets/Lucas.jpg" />
-              <MembroEquipe nome="Elias Sales" cargo="Software Engineer" imagem="/assets/Elias.jpg" />
+              <MembroEquipe nome="Elias Sales" cargo="Software Engineer" imagem="/assets/elias.jpeg" />
             </div>
           </section>
         </div>
