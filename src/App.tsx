@@ -2,10 +2,10 @@ import { useState } from 'react';
 import './App.css';
 import headerPic from '/assets/foto-de-fundo.jpg';
 import logo from '/assets/logo.png';
-import parede from '/assets/escrita-parede.png';
+import cenaCorrida from '/assets/A4B2A3B.png';
 import wpp from '/assets/whatsapp.svg';
 import raizes from '/assets/raízes.jpg';
-import telhado from '/assets/telhado.jpg';
+import morreu from '/assets/MORREU.png';
 import { MembroEquipe } from './components/MembroEquipe';
 
 function App() {
@@ -97,12 +97,12 @@ function App() {
         <section className="bg-black text-white py-5">
           <div className="max-w-3xl mx-auto text-center px-4">
             <div className="hidden md:flex justify-center gap-[150px] mb-8">
-              <img src={parede} alt="parede" className="w-[250px]" />
+              <img src={cenaCorrida} alt="cenaCorrida" className="w-[250px]" />
               <img src={raizes} alt="raízes" className="w-[250px]" />
-              <img src={telhado} alt="telhado" className="w-[250px]" />
+              <img src={morreu} alt="morreu" className="w-[250px]" />
             </div>
             <div className="flex md:hidden justify-center mb-8">
-              <img src={parede} alt="Imagem Mobile" className="w-[60%]" />
+              <img src={cenaCorrida} alt="Imagem Mobile" className="w-[60%]" />
             </div>
             <h2 id="nosso-produto" className="text-xl md:text-2xl font-semibold mb-4">
               Raízes do Medo
